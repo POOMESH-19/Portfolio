@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poomeshwaran L - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #11959f, #2a5298);
+    color: #fff;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff5733;
+}
+
+/* Sections */
+.section {
+    padding: 50px 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Skills */
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Projects */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.project-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Certificates */
+.certificates-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.certificate-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    transition: 0.3s;
+}
+
+.certificate-card:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Contact */
+a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff5733;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="POOMESHWARAN PHOTO.jpg" alt="Poomeshwaran L" class="profile-photo">
+            <h1>Poomeshwaran L</h1>
+            <p>B.E. Electronics and Communication Engineering</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Passionate engineer with expertise in web development and problem-solving. Proficient in C, C++, Java, and web technologies.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>C, C++, Java</li>
+                <li>HTML, CSS, JavaScript, Bootstrap</li>
+                <li>MySQL</li>
+                <li>Time Management, Team Work, Creativity</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="certificates" class="section">
+        <div class="container">
+            <h2>Certificates</h2>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <h3>Problem Solving (Basic) - HackerRank</h3>
+                    <p>Certified in basic problem-solving skills.</p>
+                </div>
+                <div class="certificate-card">
+                    <h3>JavaScript (Basic & Intermediate) - HackerRank</h3>
+                    <p>Completed JavaScript certifications (Basic & Intermediate) from HackerRank.</p>
+                </div>
+                <div class="certificate-card">
+                    <h3>SQL (Basic) - HackerRank</h3>
+                    <p>Completed SQL basics certification from HackerRank.</p>
+                </div>
+                <div class="certificate-card">
+                    <h3>Java (Basic) - HackerRank</h3>
+                    <p>Certified in Java fundamentals.</p>
+                </div>
+                <div class="certificate-card">
+                    <h3>Introduction to HTML - Great Learning</h3>
+                    <p>Certified in HTML fundamentals through Great Learning platform.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Face Anonymizer</h3>
+                    <p>Implemented an algorithm using OpenCV and Python to anonymize faces for privacy preservation.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Online Learning Website</h3>
+                    <p>Developed an online learning platform using HTML and CSS.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Room Automation Using Visitor Counter</h3>
+                    <p>Designed an automation system using IR sensors and a microcontroller to manage room congestion.</p>
+                </div>
+                <div class="project-card" style="text-align: center;">
+                    <h3>Pet Adoption System</h3>
+                    <p>Built a web platform for pet adoption using HTML, CSS, Bootstrap, and JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:poomesh.2005@gmail.com">poomesh.2005@gmail.com</a></p>
+            <p>Phone: +91 8838602553</p>
+            <p><a href="https://leetcode.com/u/POOMESHWARAN_L/">Leetcode</a> | <a href="http://github.com/POOMESH-19/">Github</a> | <a href="https://www.linkedin.com/in/poomesh-waran/">LinkedIn</a> | <a href="https://www.codechef.com/users/poomeshwaran33">Code Chef</a> | <a href="https://drive.google.com/file/d/1GPJXfZgCSdvMpCRkiwoxYt3Penxv8Dj1/view">Resume</a></p>        </div>
+    </section>
+</body>
+</html>
